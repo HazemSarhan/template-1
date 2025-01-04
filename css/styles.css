@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #37447e;
+  --second-color: #111b47;
+  --third-color: #091133;
+  --footer-color: #e7ecff;
+}
+
+.main-button {
+  background-color: var(--second-color);
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 0.2rem;
+}
+
+.main-button:hover {
+  background-color: var(--second-color);
+  color: white;
+}
+
+.second-button {
+  outline: 1px solid var(--third-color);
+  color: var(--third-color);
+  padding: 0.5rem 3rem;
+  border-radius: 0.2rem;
+}
+
+.second-button:hover {
+  background-color: var(--second-color);
+  color: white;
+}
+
+ul li a {
+  color: var(--primary-color);
+}
+
+ul li .active {
+  color: var(--second-color) !important;
+}
+
+ul li a:hover {
+  color: var(--second-color) !important;
+}
+
+.heading-1 {
+  color: var(--primary-color);
+}
+
+.heading-2 {
+  color: var(--third-color);
+}
+
+.section-6 {
+  background-color: var(--footer-color);
+}
+
+.price {
+  color: var(--primary-color);
+  font-size: 5rem;
+}
+
+.footer {
+  background-color: var(--footer-color);
+}
+
+.footer svg {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .buttons {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-2 {
+    display: none !important;
+  }
+  .second {
+    text-align: center !important;
+  }
+}
